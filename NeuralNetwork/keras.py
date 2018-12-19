@@ -1,6 +1,6 @@
 import numpy as np
-import matplotlib.pyplot as plt
 import keras
+import matplotlib.pyplot as plt
 from keras.models import Sequential
 
 n_pts = 500
@@ -15,3 +15,4 @@ y = np.matrix(np.append(np.zeros(n_pts), np.ones(n_pts))).T
  
 plt.scatter(X[:n_pts,0], X[:n_pts,1])
 plt.scatter(X[n_pts:,0], X[n_pts:,1])
+plt.show()
