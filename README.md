@@ -31,7 +31,7 @@ Em forma matemática:
 O Perceptron é a arquitetura mais simples de uma Rede Neural Artificial. O modelo recebe varias  entradas e produz uma única saída binaria:
 
 <p>
-    <img align="center" src="https://i0.wp.com/deeplearningbook.com.br/wp-content/uploads/2017/12/perceptron.png?w=280">
+    <img align="center" width="1000" height="400" src="https://i0.wp.com/deeplearningbook.com.br/wp-content/uploads/2017/12/perceptron.png?w=280">
 </p>
 
 A saida é determinada pela soma ponderada de todas as entradas X pesos, gerando um resultado binario, 0 ou 1. O modelo se classifica como uma Rede Neural Artificial de treinamento supervisionado, onde os pesos e os thresholds são ajustados para obter o resultado esperado.
