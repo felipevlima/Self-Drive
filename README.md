@@ -42,3 +42,24 @@ O modelo Perceptron pode ser usado para decisões simples. Como:
   - R.:  Sim(1) ou Não(0)
 
 Após ser gerado uma saída, elas são calculadas por uma função de ativação como: Hard Limiter, Threshold Logic e Sigmoide.
+
+### Hard Limiter:
+
+A primeira função de ativação, e consequentemente a mais simples, é a Hard Limiter( Limite Rígido). Essa função consiste em forçar um neurônio a produzir um "1" se a sua entrada atigir um limite, caso contrario, o neurônio envia como saída "0".
+
+<p>
+    <img width="1300" height="500" src="http://radio.feld.cvut.cz/matlab/toolbox/nnet/hardlim.gif">
+</p>
+
+
+
+Isso permite com que o neurônio tome uma decisão ou classificação, podendo dizer "sim" ou "não". Esse tipo de função é muito treinado com a regra de apredizagem do Perceptron.
+
+Sintáxe em código:
+
+```
+>>> n = -7, 0.1, 7
+>>> a = hardlim(n)
+>>> plot(n, a)
+```
+
