@@ -7,7 +7,7 @@ Repository focused on self-drive learning. I will be posting here my advances wi
 Repositorio focado em aprendizagem de direção segura. Eu estarei postando aqui meus avanços com técnicas de machine-learning para carros autonomos.
 Para entender totalmente o projeto, precisamos entender melhor como redes neurais funcionam.
 
-### Como o neurônio artificial funciona
+## Como o neurônio artificial funciona
 
 Entender como os neurônios artificiais funcionam não é complicado. Atualmente existem milhares de exemplos na internet. Irei tentar simplificar o máximo possível para seu melhor entendimento. Um neurônio artificial é nada menos que um conjunto de funções matemáticas para imitar um neurônio. Todo neurônio segue o mesmo fluxo:
 
@@ -25,3 +25,20 @@ Em forma matemática:
 - Entrada de dados = Xn
 - Pesos = Wn
 - Função de ativação = FA
+
+## Perceptron:
+
+O Perceptron é a arquitetura mais simples de uma Rede Neural Artificial. O modelo recebe varias  entradas e produz uma única saída binaria:
+
+<p>
+    <img align="center" src="https://i0.wp.com/deeplearningbook.com.br/wp-content/uploads/2017/12/perceptron.png?w=280">
+</p>
+
+A saida é determinada pela soma ponderada de todas as entradas X pesos, gerando um resultado binario, 0 ou 1. O modelo se classifica como uma Rede Neural Artificial de treinamento supervisionado, onde os pesos e os thresholds são ajustados para obter o resultado esperado.
+
+O modelo Perceptron pode ser usado para decisões simples. Como:
+
+- Você quer sair hoje? 
+  - R.:  Sim(1) ou Não(0)
+
+Após ser gerado uma saída, elas são calculadas por uma função de ativação como: Hard Limiter, Threshold Logic e Sigmoide.
