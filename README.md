@@ -62,4 +62,4 @@ Sintáxe em código:
 >>> a = hardlim(n)
 >>> plot(n, a)
 ```
-
+...Continua...
