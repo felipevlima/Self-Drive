@@ -62,4 +62,22 @@ Sintáxe em código:
 >>> a = hardlim(n)
 >>> plot(n, a)
 ```
+### Threshold Logic:
+
+A segunda função de ativação, é parecida com a "Hard Limiter", mas cada entrada tem um peso correspondente. Ela é muito vista nos exemplos de neurônios artificiais pela internet. O neuronio recebe uma entrada, essa entrada é multiplicada pelo seu peso, e somado a outras entradas X pesos. Essa soma é a saida correspondente.
+
+Gostaria de falar mais sobre a Threshold, mas não tem o porque focar muito nela  agora.
+
+### Sigmoid Function:
+
+A terceira função e uma das mais importantes é a Sigmoide. Ela é definida para todos os valores de entrada reais e tem uma derivada positiva em cada ponto. Funções Sigmóides são usadas excessivamente em redes neurais. O que distingue o perceptron do neurônio sigmóide ou do neurônio logístico é a presença da função sigmóide ou da função logística no neurônio sigmoide. As funções Sigmóides são geralmente usadas paras situações em que só existem 2 possíveis opções, sim ou não. A função sigmóide é representada por:
+
+<p>
+    <img asing="center" src="https://upload.wikimedia.org/wikipedia/commons/8/88/Logistic-curve.svg">
+</p>
+
+A função assume um formato de S. E seus valores estão dentro da sua área. Podendo ser representada na forma matematica:
+
+					 f (x) = 1 / (1 + e ^ -x)
+
 ...Continua...
