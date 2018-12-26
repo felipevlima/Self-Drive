@@ -80,4 +80,10 @@ A função assume um formato de S. E seus valores estão dentro da sua área. Po
 
 					 f (x) = 1 / (1 + e ^ -x)
 
-...Continua...
+### Redes Convulacionais:
+
+Tendo uma base melhor sobre as funções de ativação e como um neurônio artificial funciona, vamos partir para as Redes Convulacionais, que usarei no projeto focado em Self-Drive. As ConvNets (como são conhecidas), são um conjuntos de neurônios artificiais que fazem processamento de imagem em alto nivel (avançando rapido graças as técnicas de DeepLearning)
+
+Visão computacional é um campo muito interessante. Poder fazer com que um computador enxergue e saiba identificar objetos, isso é sem dúvidas muito interessante. Mas como isso é possível? Computadores enxergam igual a nós humanos? Em uma resposta rápida: Não, eles não enxergam igual a nós... Mas o precessamento de imagem é similiar. 
+
+...Continue...
